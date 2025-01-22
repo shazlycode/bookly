@@ -44,6 +44,24 @@
       "languageVersion": "3.1"
     },
     {
+      "name": "dartz",
+      "rootUri": "file:///C:/Users/drahm/AppData/Local/Pub/Cache/hosted/pub.dev/dartz-0.10.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "dio",
+      "rootUri": "file:///C:/Users/drahm/AppData/Local/Pub/Cache/hosted/pub.dev/dio-5.7.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    },
+    {
+      "name": "dio_web_adapter",
+      "rootUri": "file:///C:/Users/drahm/AppData/Local/Pub/Cache/hosted/pub.dev/dio_web_adapter-2.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
       "name": "equatable",
       "rootUri": "file:///C:/Users/drahm/AppData/Local/Pub/Cache/hosted/pub.dev/equatable-2.0.7",
       "packageUri": "lib/",
@@ -296,7 +314,7 @@
       "languageVersion": "3.6"
     }
   ],
-  "generated": "2025-01-22T01:33:31.709585Z",
+  "generated": "2025-01-22T01:45:29.875894Z",
   "generator": "pub",
   "generatorVersion": "3.6.1",
   "flutterRoot": "file:///C:/src/flutter",
