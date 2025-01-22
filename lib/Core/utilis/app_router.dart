@@ -1,7 +1,8 @@
 import 'package:bookly/Features/Splash/presentation/views/splash_screen_view.dart';
-import 'package:bookly/Features/books%20screen/presentation/views/book_details_sreen_view.dart';
-import 'package:bookly/Features/books%20screen/presentation/views/book_screen_view.dart';
 import 'package:go_router/go_router.dart';
+
+import '../../Features/Books Home/presentation/views/book_details_sreen_view.dart';
+import '../../Features/Books Home/presentation/views/book_screen_view.dart';
 
 class AppRouter {
   static const kSplashScreenViewPath = "/";
