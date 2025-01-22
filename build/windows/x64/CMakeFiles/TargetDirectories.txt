@@ -1,0 +1,10 @@
+E:/coding/Flutter Projects/bookly/build/windows/x64/CMakeFiles/INSTALL.dir
+E:/coding/Flutter Projects/bookly/build/windows/x64/CMakeFiles/ALL_BUILD.dir
+E:/coding/Flutter Projects/bookly/build/windows/x64/CMakeFiles/ZERO_CHECK.dir
+E:/coding/Flutter Projects/bookly/build/windows/x64/flutter/CMakeFiles/flutter_wrapper_plugin.dir
+E:/coding/Flutter Projects/bookly/build/windows/x64/flutter/CMakeFiles/flutter_wrapper_app.dir
+E:/coding/Flutter Projects/bookly/build/windows/x64/flutter/CMakeFiles/flutter_assemble.dir
+E:/coding/Flutter Projects/bookly/build/windows/x64/flutter/CMakeFiles/INSTALL.dir
+E:/coding/Flutter Projects/bookly/build/windows/x64/runner/CMakeFiles/bookly.dir
+E:/coding/Flutter Projects/bookly/build/windows/x64/runner/CMakeFiles/INSTALL.dir
+E:/coding/Flutter Projects/bookly/build/windows/x64/runner/CMakeFiles/ALL_BUILD.dir
