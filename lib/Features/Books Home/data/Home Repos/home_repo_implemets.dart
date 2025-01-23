@@ -7,6 +7,7 @@ import 'package:dio/dio.dart';
 
 class HomeRepoImplemets implements HomeRepo {
   late ApiService apiService;
+  HomeRepoImplemets({required this.apiService});
   @override
   Future<Either<Failure, List<BookModel>>> fetchNewestBooks() async {
     try {

@@ -1,3 +1,4 @@
+import 'package:bookly/Features/Books%20Home/data/models/book_model/book_model.dart';
 import 'package:bookly/Features/Splash/presentation/views/splash_screen_view.dart';
 import 'package:go_router/go_router.dart';
 
@@ -20,7 +21,9 @@ class AppRouter {
           builder: (context, state) => BookScreenView()),
       GoRoute(
         path: kBookDetailsScreenViewPath,
-        builder: (context, state) => BookDetailsSreenView(),
+        builder: (context, state) => BookDetailsSreenView(
+          bookModel: state.extra as BookModel,
+        ),
       )
     ],
   );

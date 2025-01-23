@@ -27,6 +27,7 @@ INJECTED from E:\coding\Flutter Projects\bookly\android\app\src\debug\AndroidMan
 INJECTED from E:\coding\Flutter Projects\bookly\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 INJECTED from E:\coding\Flutter Projects\bookly\android\app\src\debug\AndroidManifest.xml:1:1-7:12
 MERGED from [:path_provider_android] E:\coding\Flutter Projects\bookly\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:sqflite_android] E:\coding\Flutter Projects\bookly\build\sqflite_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.fragment:fragment:1.7.1] C:\Users\drahm\.gradle\caches\transforms-3\34b9e8114ed50492479eb875aa77a652\transformed\fragment-1.7.1\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.window:window:1.2.0] C:\Users\drahm\.gradle\caches\transforms-3\b61292485483c7499e83c4f5c6f9bd1a\transformed\jetified-window-1.2.0\AndroidManifest.xml:17:1-31:12
 MERGED from [androidx.window:window-java:1.2.0] C:\Users\drahm\.gradle\caches\transforms-3\3d0412389d2966e83c19c51ceeb7e70b\transformed\jetified-window-java-1.2.0\AndroidManifest.xml:17:1-21:12
@@ -83,6 +84,8 @@ INJECTED from E:\coding\Flutter Projects\bookly\android\app\src\debug\AndroidMan
 INJECTED from E:\coding\Flutter Projects\bookly\android\app\src\debug\AndroidManifest.xml
 MERGED from [:path_provider_android] E:\coding\Flutter Projects\bookly\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:path_provider_android] E:\coding\Flutter Projects\bookly\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:sqflite_android] E:\coding\Flutter Projects\bookly\build\sqflite_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:sqflite_android] E:\coding\Flutter Projects\bookly\build\sqflite_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [androidx.fragment:fragment:1.7.1] C:\Users\drahm\.gradle\caches\transforms-3\34b9e8114ed50492479eb875aa77a652\transformed\fragment-1.7.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.fragment:fragment:1.7.1] C:\Users\drahm\.gradle\caches\transforms-3\34b9e8114ed50492479eb875aa77a652\transformed\fragment-1.7.1\AndroidManifest.xml:5:5-44
 MERGED from [androidx.window:window:1.2.0] C:\Users\drahm\.gradle\caches\transforms-3\b61292485483c7499e83c4f5c6f9bd1a\transformed\jetified-window-1.2.0\AndroidManifest.xml:20:5-44

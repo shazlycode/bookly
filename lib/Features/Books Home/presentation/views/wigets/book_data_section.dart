@@ -1,11 +1,14 @@
 import 'package:bookly/Core/utilis/text_styles.dart';
+import 'package:bookly/Features/Books%20Home/data/models/book_model/book_model.dart';
+import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 import 'book_item.dart';
 
 class BookDataSection extends StatelessWidget {
-  const BookDataSection({super.key});
+  const BookDataSection({super.key, required this.book});
+  final BookModel book;
 
   @override
   Widget build(BuildContext context) {
@@ -17,19 +20,26 @@ class BookDataSection extends StatelessWidget {
         SizedBox(
             height: 262,
             width: 192,
-            child: Hero(tag: "hero", child: BookItem())),
+            child: Hero(
+                tag: book.id!,
+                child: ClipRRect(
+                  borderRadius: BorderRadius.circular(16),
+                  child: CachedNetworkImage(
+                      fit: BoxFit.fill,
+                      imageUrl: book.volumeInfo!.imageLinks!.thumbnail!),
+                ))),
         const SizedBox(
           height: 20,
         ),
         Text(
-          "The Jungle Book",
+          book.volumeInfo!.title!,
           style: Styles.textStyle20,
         ),
         const SizedBox(
           height: 4,
         ),
         Text(
-          "Rudyard Kipling",
+          book.volumeInfo!.authors![0],
           style: Styles.textStyle18,
         ),
         const SizedBox(
