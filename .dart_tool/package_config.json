@@ -158,6 +158,12 @@
       "languageVersion": "3.0"
     },
     {
+      "name": "get_it",
+      "rootUri": "file:///C:/Users/drahm/AppData/Local/Pub/Cache/hosted/pub.dev/get_it-8.0.3",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "go_router",
       "rootUri": "file:///C:/Users/drahm/AppData/Local/Pub/Cache/hosted/pub.dev/go_router-14.6.3",
       "packageUri": "lib/",
@@ -434,7 +440,7 @@
       "languageVersion": "3.6"
     }
   ],
-  "generated": "2025-01-23T02:05:20.942003Z",
+  "generated": "2025-01-24T00:57:47.734559Z",
   "generator": "pub",
   "generatorVersion": "3.6.1",
   "flutterRoot": "file:///C:/src/flutter",
