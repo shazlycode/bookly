@@ -6,33 +6,32 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'similar_book_item.dart';
 
 class SimilarBookList extends StatelessWidget {
-  const SimilarBookList({
-    super.key,
-  });
+  const SimilarBookList({super.key});
 
   @override
   Widget build(BuildContext context) {
     return BlocBuilder<FeaturedBooksCubit, FeaturedBooksStates>(
-        builder: (context, state) {
-      if (state is FeaturedBooksSuccessState) {
-        return ListView.builder(
-            physics: NeverScrollableScrollPhysics(),
-            itemCount: state.books.length,
-            itemBuilder: (context, index) {
-              return Padding(
-                padding: const EdgeInsets.symmetric(vertical: 8),
-                child: SimilarBookItem(book: state.books[index]),
-              );
-            });
-      } else if (state is FeaturedBooksFailueState) {
-        return Center(
-          child: Text(state.errorMessage!),
-        );
-      } else {
-        return Center(
-          child: CircularProgressIndicator(),
-        );
-      }
-    });
+      builder: (context, state) {
+        if (state is FeaturedBooksSuccessState) {
+          return SliverList(
+            delegate: SliverChildBuilderDelegate((context, index) {
+              return SimilarBookItem(book: state.books[index]);
+            }, childCount: state.books.length),
+          );
+        } else if (state is FeaturedBooksFailueState) {
+          return SliverToBoxAdapter(
+            child: Center(
+              child: Text(state.errorMessage!),
+            ),
+          );
+        } else {
+          return SliverToBoxAdapter(
+            child: Center(
+              child: CircularProgressIndicator(),
+            ),
+          );
+        }
+      },
+    );
   }
 }

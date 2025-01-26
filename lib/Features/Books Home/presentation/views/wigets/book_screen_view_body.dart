@@ -1,5 +1,10 @@
 import 'package:bookly/Core/utilis/text_styles.dart';
+import 'package:bookly/Features/Books%20Home/data/models/book_model/book_model.dart';
+import 'package:bookly/Features/Books%20Home/presentation/view%20model/featured_books_cubit/featured_books_cubit.dart';
+import 'package:bookly/Features/Books%20Home/presentation/view%20model/featured_books_cubit/featured_books_states.dart';
+import 'package:bookly/Features/Books%20Home/presentation/views/wigets/similar_book_item.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 
 import 'books_list_view.dart';
 import 'custom_book_screen_view_app_bar.dart';
@@ -30,9 +35,7 @@ class BookScreenViewBody extends StatelessWidget {
               ],
             ),
           ),
-          SliverFillRemaining(
-            child: SimilarBookList(),
-          )
+          SimilarBookList(),
         ],
       ),
     );
